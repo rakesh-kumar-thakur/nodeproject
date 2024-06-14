@@ -2,7 +2,7 @@ export const handler = async (event) => {
   // TODO implement
   const response = {
     statusCode: 200,
-    body: JSON.stringify('Hello from Lambda with GitHub!'),
+    body: JSON.stringify('Hello from Lambda with GitHub tested deployment!'),
   };
   return response;
 };
